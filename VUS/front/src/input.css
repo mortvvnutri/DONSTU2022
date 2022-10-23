@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    h1 {
+      @apply text-[2.5rem] leading-[293.75%] font-medium;
+    }
+    h2 {
+      @apply text-[1.5625rem] leading-[181.25%] font-medium;
+    }
+    h3 {
+      @apply text-[0.875rem] leading-[100%] font-medium;
+    }
+    h4 {
+      @apply text-[0.875rem] leading-[100%] font-normal;
+    }
+    h5 {
+      @apply text-[0.75rem] leading-[0.75%] font-normal;
+    }
+    h6 {
+      @apply text-[0.8125rem] leading-[206%];
+    }
+    p {
+      @apply text-[0.8125rem] leading-[140%];
+    }
+    a {
+      @apply transition-colors duration-100 ;
+    }
+    img {
+      @apply object-cover
+    }
+  }
